@@ -2,9 +2,9 @@
     "name": "project",
     "version": "1.0.0",
     "description": "",
-    "main": "app.js",
+    "main": "index.js",
     "scripts": {
-        "dev": "nodemon -e js,html -w ./ app.js"
+        "dev": "nodemon -e js,html -w ./ index.js"
     },
     "keywords": [],
     "author": "",
