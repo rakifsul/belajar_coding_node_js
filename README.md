@@ -6,7 +6,7 @@ Saya sangat berharap bahwa Anda tidak hanya membaca kodenya, tapi juga membaca a
 
 Berikut ini adalah daftar artikelnya:
 
--   [Belajar Node JS Cara Membuat Project](https://github.com/rakifsul/belajar_coding_godot_3/tree/main/Belajar-Node-JS-Cara-Membuat-Project.md)
+-   [Belajar Node JS Cara Membuat Project](https://github.com/rakifsul/belajar_coding_node_js/tree/main/Belajar-Node-JS-Cara-Membuat-Project.md)
 -   [Belajar Node JS Menggunakan Nodemon](#)
 -   [Belajar Node JS Hello World Tanpa Framework](#)
 -   [Belajar Node JS Hello World Dengan Express](#)
