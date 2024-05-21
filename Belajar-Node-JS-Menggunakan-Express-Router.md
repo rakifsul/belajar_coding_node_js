@@ -28,77 +28,77 @@ Router memungkinkan pengembang untuk mengelompokkan dan menangani rute-rute tert
 
 Dalam bagian ini, kita akan menjelaskan router dalam Express.js tanpa menggunakan kode, memfokuskan pada pengertian dasar, fungsionalitas, dan manfaat yang ditawarkan oleh router.
 
-### Pengertian Router:
+### Pengertian Router
 
 Router dalam Express.js adalah modul yang digunakan untuk mengelola rute-rute atau endpoint-endpoint dalam aplikasi web. Rute-rute ini mencakup URL atau URI yang dapat diakses oleh pengguna melalui permintaan HTTP. Dengan menggunakan router, pengembang dapat membagi logika aplikasi menjadi bagian-bagian terpisah, membuat kode lebih terstruktur, dan meningkatkan skalabilitas.
 
-### Fungsionalitas Utama Router:
+### Fungsionalitas Utama Router
 
-#### Pemisahan Logika Aplikasi:
+#### Pemisahan Logika Aplikasi
 
 Router memungkinkan pemisahan logika aplikasi berdasarkan rute. Ini mempermudah pengembangan dan pemeliharaan kode dengan mengorganisirnya ke dalam modul-modul terpisah.
 
-#### Manajemen Endpoint:
+#### Manajemen Endpoint
 
 Router mengelola endpoint-endpoint atau rute-rute tertentu dalam aplikasi. Setiap router dapat menangani satu atau lebih rute, dan setiap rute dapat diarahkan ke logika pengendali yang berbeda.
 
-#### Skema Rute yang Jelas:
+#### Skema Rute yang Jelas
 
 Router membantu dalam menyusun skema rute yang jelas dan terstruktur. Ini membuat mudah untuk memahami dan mengelola semua rute yang tersedia dalam aplikasi.
 
-#### Kemampuan Pengelompokan:
+#### Kemampuan Pengelompokan
 
 Router memungkinkan pengelompokan rute-rute terkait. Ini berguna ketika ada beberapa rute yang memerlukan logika atau penanganan yang serupa.
 
-#### Middleware Khusus Router:
+#### Middleware Khusus Router
 
 Setiap router dapat memiliki middleware khusus yang hanya berlaku untuk rute-rute dalam router tersebut. Hal ini memberikan fleksibilitas tambahan dalam menangani permintaan yang terkait dengan router tertentu.
 
-#### Pemetaan Rute ke Fungsi Pengendali:
+#### Pemetaan Rute ke Fungsi Pengendali
 
 Router memetakan setiap rute ke fungsi pengendali (handler) yang bertanggung jawab untuk menangani permintaan yang sesuai. Ini memungkinkan logika bisnis terpisah dari definisi rute.
 
-### Manfaat Router dalam Express.js:
+### Manfaat Router dalam Express.js
 
-#### Pemeliharaan Kode yang Lebih Mudah:
+#### Pemeliharaan Kode yang Lebih Mudah
 
 Dengan menggunakan router, pengembang dapat memisahkan logika aplikasi ke dalam modul-modul terpisah berdasarkan fungsionalitas atau fitur tertentu. Ini membuat pemeliharaan kode lebih mudah karena setiap modul dapat fokus pada satu aspek tertentu dari aplikasi.
 
-#### Organisasi Terstruktur:
+#### Organisasi Terstruktur
 
 Router membantu dalam menyusun struktur yang terorganisir untuk rute-rute dalam aplikasi. Struktur yang jelas memudahkan pemahaman dan navigasi melalui kode.
 
-#### Skalabilitas yang Lebih Baik:
+#### Skalabilitas yang Lebih Baik
 
 Saat aplikasi tumbuh, router memungkinkan pengembang untuk menangani kompleksitas dengan cara yang terstruktur. Rute-rute dapat diorganisir ke dalam router-ruter terpisah, memfasilitasi pengelolaan proyek yang besar.
 
-#### Pengelompokan Middleware:
+#### Pengelompokan Middleware
 
 Router memungkinkan pengelompokan middleware tertentu untuk digunakan hanya dalam konteks router tersebut. Hal ini memungkinkan penanganan permintaan yang terkait dengan router tertentu memiliki middleware yang khusus dan terpisah dari middleware lainnya.
 
-#### Penggunaan Middleware Global dan Lokal:
+#### Penggunaan Middleware Global dan Lokal
 
 Router memungkinkan pengembang untuk menggunakan middleware secara global, yang berlaku untuk seluruh aplikasi, dan juga middleware lokal yang hanya berlaku untuk rute-rute tertentu dalam router.
 
-### Struktur Dasar Penggunaan Router:
+### Struktur Dasar Penggunaan Router
 
-#### Pendefinisian Router:
+#### Pendefinisian Router
 
 Pertama, router perlu didefinisikan menggunakan metode express.Router(). Ini menciptakan instance router yang dapat digunakan untuk menangani rute-rute tertentu.
 
-#### Definisi Rute pada Router:
+#### Definisi Rute pada Router
 
 Rute-rute ditambahkan ke router menggunakan metode seperti router.get(), router.post(), atau metode lainnya sesuai dengan metode HTTP yang diinginkan.
 
-#### Pengelompokan dan Penggunaan Router:
+#### Pengelompokan dan Penggunaan Router
 
 Router dapat dikelompokkan untuk menangani rute-rute tertentu. Setiap router kemudian dapat digunakan sebagai middleware dalam aplikasi utama dengan menggunakan app.use().
 
-#### Pemetaan Rute ke Fungsi Pengendali:
+#### Pemetaan Rute ke Fungsi Pengendali
 
 Setiap rute pada router dapat diarahkan ke fungsi pengendali yang akan menangani permintaan yang sesuai dengan rute tersebut.
 
-#### Penanganan Error pada Router:
+#### Penanganan Error pada Router
 
 Router dapat memiliki middleware penanganan kesalahan sendiri untuk menangani kesalahan yang terjadi dalam konteks router tersebut.
 Router dalam Express.js adalah alat yang kuat untuk mengelola dan mengorganisir rute-rute dalam aplikasi web.
