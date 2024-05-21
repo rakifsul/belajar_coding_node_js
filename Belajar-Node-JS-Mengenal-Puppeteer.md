@@ -59,3 +59,112 @@ Berikut ini adalah prasyarat dari tutorial ini:
 -   Menggunakan sistem operasi Windows 10 ke atas.
 -   Men-download dan meng-install Node.js dan NPM.
 -   Bisa mengakses Node.js dan NPM dari PowerShell di folder manapun.
+
+## Langkah-Langkah
+
+Pertama, buatlah project Node.js bernama "contoh_nodejs_puppeteer" dengan cara yang telah dijelaskan di tutorial terdahulu ini.
+
+Selanjutnya, ubah file "package.json" menjadi seperti ini:
+
+```
+{
+  "name": "contoh_nodejs_puppeteer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^22.8.0"
+  }
+}
+```
+
+Selanjutnya, ubah file "index.js" menjadi seperti ini:
+
+```
+// import module
+const puppeteer = require("puppeteer");
+
+(async () => {
+    // jalankan browser dan buka halaman kosong
+    const browser = await puppeteer.launch();
+    const page = await browser.newPage();
+
+    // navigasi ke URL ini
+    // sebagai referensi, kunjungi https://quotes.toscrape.com dan lihat menunya.
+    // di sana ada menu bertuliskan "reading".
+    // disclaimer: mungkin halaman tersebut telah berubah saat Anda mengunjunginya.
+    await page.goto("https://quotes.toscrape.com");
+
+    // terapkan ukuran layar
+    await page.setViewport({ width: 1024, height: 768 });
+
+    // tunggu hingga elemen dengan selector ini muncul
+    await page.waitForSelector("body > div > div:nth-child(2) > div.col-md-4.tags-box > span:nth-child(7) > a");
+
+    // baca teks-nya
+    let result = await page.evaluate(() => {
+        let elements = Array.from(document.querySelectorAll("body > div > div:nth-child(2) > div.col-md-4.tags-box > span:nth-child(7) > a"));
+        let textContent = elements.map((element) => {
+            return element.textContent;
+        });
+        return textContent;
+    });
+
+    // tampilkan hasilnya
+    console.log(result);
+
+    // tutup puppeteer browser
+    await browser.close();
+})();
+```
+
+Selanjutnya, jalankan:
+
+```
+npm install
+```
+
+Sekarang, jalankan aplikasi ini:
+
+```
+node index.js
+```
+
+Nanti akan muncul output di command line:
+
+```
+[ 'reading' ]
+```
+
+## Pembahasan
+
+Kode ini menggunakan Puppeteer untuk mengotomatisasi browser Chrome atau Chromium dalam menjalankan serangkaian tindakan pada halaman web tertentu.
+
+Mari kita jelaskan baris per baris:
+
+-   `const puppeteer = require("puppeteer");`: Ini mengimpor modul Puppeteer ke dalam skrip Node.js Anda. Ini memungkinkan Anda menggunakan semua fungsi dan fitur yang disediakan oleh Puppeteer.
+-   `(async () => { ... })();`: Ini adalah fungsi anonim yang didefinisikan dan segera dieksekusi (self-invoking). Ini menggunakan async/await untuk mengelola asinkronitas dalam JavaScript.
+-   `const browser = await puppeteer.launch();`: Baris ini memulai browser menggunakan metode `puppeteer.launch()`. Ini akan membuat instance baru dari browser Chrome atau Chromium yang akan digunakan untuk menjalankan tindakan-tindakan berikutnya.
+-   `const page = await browser.newPage();`: Ini membuat halaman baru di dalam browser yang telah dibuka sebelumnya. Instance halaman baru ini akan digunakan untuk melakukan interaksi selanjutnya, seperti navigasi ke URL tertentu dan mengevaluasi elemen-elemen di dalamnya.
+-   `await page.goto("https://quotes.toscrape.com");`: Ini adalah langkah penting, di mana skrip melakukan navigasi ke URL "https://quotes.toscrape.com". Ini membuka halaman web yang ingin kita ambil informasinya.
+-   `await page.setViewport({ width: 1024, height: 768 });`: Baris ini menetapkan ukuran viewport (area yang terlihat oleh pengguna) pada halaman web. Dalam contoh ini, viewport ditetapkan dengan lebar 1024 piksel dan tinggi 768 piksel.
+-   `await page.waitForSelector("body > div > div:nth-child(2) > div.col-md-4.tags-box > span:nth-child(7) > a");`: Ini adalah langkah yang memastikan bahwa elemen dengan selector yang ditentukan telah muncul di halaman. Skrip akan menunggu hingga elemen tersebut tersedia sebelum melanjutkan.
+-   `let result = await page.evaluate(() => { ... });`: Ini menggunakan metode `page.evaluate()` untuk mengeksekusi fungsi evaluasi di dalam lingkungan halaman web. Dalam kasus ini, itu akan mengeksekusi fungsi yang mencari elemen dengan selector tertentu dan mengambil teksnya.
+-   `console.log(result);`: Hasil yang diperoleh dari evaluasi sebelumnya kemudian dicetak ke konsol. Ini akan menampilkan teks yang diambil dari elemen yang diidentifikasi sebelumnya.
+-   `await browser.close();`: Langkah terakhir adalah menutup browser menggunakan browser.close() setelah selesai melakukan tindakan-tindakan yang diinginkan.
+
+Ingat bahwa pada `let result = await page.evaluate(() => { ... });`, kode dalam blok fungsi yang menjadi parameter page.evaluate, scope-nya bukan di Node.js, melainkan di browser, jadi, itu JavaScript-nya browser.
+
+Keseluruhan, skrip ini mengotomatisasi browser untuk membuka halaman "https://quotes.toscrape.com", menunggu hingga elemen tertentu muncul, dan kemudian mengambil teks dari elemen tersebut untuk kemudian dicetak ke console.
+
+## Penutup
+
+Begitulah contoh sederhana penggunaan puppeteer.
+
+Jika ingin belajar lebih lanjut, kunjungi dokumentasinya.
