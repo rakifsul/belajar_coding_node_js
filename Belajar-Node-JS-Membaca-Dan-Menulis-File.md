@@ -10,10 +10,14 @@ Kali ini, kita akan belajar membaca dan menulis file di Node.js.
 
 Pada dasarnya, untuk melakukan itu ada beberapa metode:
 
-Dengan cara asynchronous dan dengan callback.
-Dengan cara asynchronous dan async await.
-Dengan cara menggunakan versi synchronous dari API-nya.
-Di bawah ini ada 4 script. readfile.js dan readfilesync.js menunjukkan cara untuk membaca file, writefile.js dan writefilesync.js menunjukkan cara untuk menulis file.
+-   Dengan cara asynchronous dan dengan callback.
+-   Dengan cara asynchronous dan async await.
+-   Dengan cara menggunakan versi synchronous dari API-nya.
+
+Di bawah ini ada 4 script:
+
+-   readfile.js dan readfilesync.js menunjukkan cara untuk membaca file.
+-   writefile.js dan writefilesync.js menunjukkan cara untuk menulis file.
 
 Yang memiliki akhiran “sync” menggunakan metode synchronous, sedangkan yang tidak menggunakan metode asynchronous.
 
@@ -21,24 +25,40 @@ Yang memiliki akhiran “sync” menggunakan metode synchronous, sedangkan yang 
 
 File reading dan file writing adalah dua konsep penting dalam pengelolaan berkas (file) di Node.js:
 
-File Reading (Membaca Berkas):
-Tujuan Utama: File reading atau pembacaan berkas adalah proses membaca data dari berkas yang ada di sistem file.
+### File Reading (Membaca Berkas):
+
+Tujuan Utama:
+
+-   File reading atau pembacaan berkas adalah proses membaca data dari berkas yang ada di sistem file.
+
 Proses:
-Node.js menyediakan metode dan fungsi untuk membaca berkas secara asinkron atau sinkron.
-Dalam operasi asinkron, Node.js akan membaca berkas secara non-blokir, yang berarti kode akan terus berjalan tanpa menunggu pembacaan berkas selesai. Callback akan dipanggil ketika pembacaan selesai.
-Dalam operasi sinkron, Node.js akan membaca berkas secara blokir, yang berarti kode akan menunggu pembacaan berkas selesai sebelum melanjutkan eksekusi kode berikutnya.
+
+-   Node.js menyediakan metode dan fungsi untuk membaca berkas secara asinkron atau sinkron.
+-   Dalam operasi asinkron, Node.js akan membaca berkas secara non-blokir, yang berarti kode akan terus berjalan tanpa menunggu pembacaan berkas selesai. Callback akan dipanggil ketika pembacaan selesai.
+-   Dalam operasi sinkron, Node.js akan membaca berkas secara blokir, yang berarti kode akan menunggu pembacaan berkas selesai sebelum melanjutkan eksekusi kode berikutnya.
+
 Penggunaan:
-File reading digunakan ketika aplikasi perlu membaca konfigurasi, data, atau teks dari berkas untuk diproses lebih lanjut, seperti dalam aplikasi web untuk membaca template HTML atau dalam aplikasi server untuk membaca file konfigurasi.
-File Writing (Menulis Berkas):
-Tujuan Utama: File writing atau penulisan berkas adalah proses menulis data ke dalam berkas yang ada di sistem file.
+
+-   File reading digunakan ketika aplikasi perlu membaca konfigurasi, data, atau teks dari berkas untuk diproses lebih lanjut, seperti dalam aplikasi web untuk membaca template HTML atau dalam aplikasi server untuk membaca file konfigurasi.
+
+### File Writing (Menulis Berkas):
+
+Tujuan Utama:
+
+-   File writing atau penulisan berkas adalah proses menulis data ke dalam berkas yang ada di sistem file.
+
 Proses:
-Node.js menyediakan metode dan fungsi untuk menulis data ke berkas secara asinkron atau sinkron.
-Seperti file reading, dalam operasi asinkron, Node.js akan menulis berkas secara non-blokir, sementara dalam operasi sinkron, Node.js akan menulis berkas secara blokir.
+
+-   Node.js menyediakan metode dan fungsi untuk menulis data ke berkas secara asinkron atau sinkron.
+-   Seperti file reading, dalam operasi asinkron, Node.js akan menulis berkas secara non-blokir, sementara dalam operasi sinkron, Node.js akan menulis berkas secara blokir.
+
 Penggunaan:
-File writing digunakan ketika aplikasi perlu menyimpan data hasil proses atau hasil operasi ke dalam berkas, seperti log aplikasi, file konfigurasi yang diperbarui, atau menyimpan data yang diperlukan untuk aplikasi berikutnya.
-Pentingnya Asinkronisitas:
-Dalam penggunaan file reading dan file writing, operasi asinkron lebih umum digunakan karena memungkinkan aplikasi untuk tetap responsif dan efisien. Dengan demikian, aplikasi dapat melanjutkan eksekusi operasi lain tanpa menunggu pembacaan atau penulisan berkas selesai.
-File reading dan file writing merupakan bagian integral dari pengelolaan berkas di Node.js dan memungkinkan pengembang untuk mengakses, membaca, dan menulis data dari dan ke dalam berkas dengan mudah dan efisien dalam aplikasi mereka.
+
+-   File writing digunakan ketika aplikasi perlu menyimpan data hasil proses atau hasil operasi ke dalam berkas, seperti log aplikasi, file konfigurasi yang diperbarui, atau menyimpan data yang diperlukan untuk aplikasi berikutnya.
+
+### Pentingnya Asinkronisitas:
+
+-   Dalam penggunaan file reading dan file writing, operasi asinkron lebih umum digunakan karena memungkinkan aplikasi untuk tetap responsif dan efisien. Dengan demikian, aplikasi dapat melanjutkan eksekusi operasi lain tanpa menunggu pembacaan atau penulisan berkas selesai. File reading dan file writing merupakan bagian integral dari pengelolaan berkas di Node.js dan memungkinkan pengembang untuk mengakses, membaca, dan menulis data dari dan ke dalam berkas dengan mudah dan efisien dalam aplikasi mereka.
 
 ## Langkah-Langkah
 
