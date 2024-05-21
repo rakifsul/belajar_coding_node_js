@@ -28,19 +28,13 @@ Node.js adalah lingkungan runtime JavaScript yang dibangun di atas mesin JavaScr
 
 Berikut adalah beberapa poin penting tentang Node.js:
 
-JavaScript di Sisi Server: Node.js memungkinkan untuk menjalankan kode JavaScript di sisi server, yang sebelumnya terbatas pada browser. Ini memungkinkan pengembang untuk menggunakan JavaScript di kedua sisi, baik di sisi klien (browser) maupun di sisi server.
-
-Non-blocking dan Event-driven: Node.js menggunakan model pemrograman non-blocking dan event-driven yang memungkinkan untuk menangani banyak koneksi secara bersamaan dengan cepat dan efisien. Ini berguna dalam membangun aplikasi yang skala besar atau real-time seperti aplikasi web, streaming, dan permainan.
-
-Asynchronous I/O: Node.js memungkinkan untuk melakukan operasi I/O secara asinkron, yang berarti operasi-operasi seperti membaca atau menulis ke berkas, mengambil data dari database, atau memanggil API eksternal dapat dilakukan tanpa menghentikan eksekusi program. Hal ini mengoptimalkan penggunaan CPU dan mempercepat respons aplikasi.
-
-NPM (Node Package Manager): Node.js dilengkapi dengan NPM, manajer paket yang kuat untuk mengelola dependensi dan paket-paket JavaScript. NPM memungkinkan untuk dengan mudah menginstal, mengelola, dan membagikan kode JavaScript dalam proyek-proyek Node.js.
-
-Komunitas yang Besar: Node.js memiliki komunitas pengembang yang besar dan aktif yang terus berkontribusi dalam pengembangan, dokumentasi, dan sumber daya belajar. Ini membuat Node.js menjadi salah satu ekosistem pengembangan yang paling populer dan berkembang pesat di dunia.
-
-Fleksibilitas dan Skalabilitas: Node.js cocok digunakan untuk berbagai jenis aplikasi, mulai dari aplikasi web, aplikasi backend, server API, hingga aplikasi real-time seperti chat atau game. Dengan model non-blocking dan event-driven, Node.js juga dapat dengan mudah di-skala secara horizontal untuk menangani beban yang lebih besar.
-
-Cross-platform: Node.js dapat dijalankan di berbagai platform, termasuk Windows, macOS, dan Linux. Ini membuatnya menjadi pilihan yang fleksibel untuk pengembangan aplikasi yang berjalan di berbagai lingkungan.
+-   JavaScript di Sisi Server: Node.js memungkinkan untuk menjalankan kode JavaScript di sisi server, yang sebelumnya terbatas pada browser. Ini memungkinkan pengembang untuk menggunakan JavaScript di kedua sisi, baik di sisi klien (browser) maupun di sisi server.
+-   Non-blocking dan Event-driven: Node.js menggunakan model pemrograman non-blocking dan event-driven yang memungkinkan untuk menangani banyak koneksi secara bersamaan dengan cepat dan efisien. Ini berguna dalam membangun aplikasi yang skala besar atau real-time seperti aplikasi web, streaming, dan permainan.
+-   Asynchronous I/O: Node.js memungkinkan untuk melakukan operasi I/O secara asinkron, yang berarti operasi-operasi seperti membaca atau menulis ke berkas, mengambil data dari database, atau memanggil API eksternal dapat dilakukan tanpa menghentikan eksekusi program. Hal ini mengoptimalkan penggunaan CPU dan mempercepat respons aplikasi.
+-   NPM (Node Package Manager): Node.js dilengkapi dengan NPM, manajer paket yang kuat untuk mengelola dependensi dan paket-paket JavaScript. NPM memungkinkan untuk dengan mudah menginstal, mengelola, dan membagikan kode JavaScript dalam proyek-proyek Node.js.
+-   Komunitas yang Besar: Node.js memiliki komunitas pengembang yang besar dan aktif yang terus berkontribusi dalam pengembangan, dokumentasi, dan sumber daya belajar. Ini membuat Node.js menjadi salah satu ekosistem pengembangan yang paling populer dan berkembang pesat di dunia.
+-   Fleksibilitas dan Skalabilitas: Node.js cocok digunakan untuk berbagai jenis aplikasi, mulai dari aplikasi web, aplikasi backend, server API, hingga aplikasi real-time seperti chat atau game. Dengan model non-blocking dan event-driven, Node.js juga dapat dengan mudah di-skala secara horizontal untuk menangani beban yang lebih besar.
+-   Cross-platform: Node.js dapat dijalankan di berbagai platform, termasuk Windows, macOS, dan Linux. Ini membuatnya menjadi pilihan yang fleksibel untuk pengembangan aplikasi yang berjalan di berbagai lingkungan.
 
 Secara keseluruhan, Node.js adalah lingkungan runtime yang kuat dan fleksibel untuk menjalankan kode JavaScript di sisi server.
 
@@ -52,19 +46,13 @@ NPM (Node Package Manager) adalah manajer paket untuk ekosistem Node.js yang mem
 
 Berikut adalah beberapa poin penting tentang NPM:
 
-Manajer Paket: NPM adalah manajer paket yang kuat yang digunakan untuk mengelola dependensi dan paket-paket JavaScript dalam proyek-proyek Node.js. Ini memungkinkan pengembang untuk mengatur dan menyimpan kode JavaScript dari berbagai sumber dengan mudah.
-
-Repository Publik: NPM memiliki repositori publik yang luas yang berisi ribuan paket-paket JavaScript yang tersedia untuk digunakan. Pengembang dapat mencari dan menemukan paket yang sesuai dengan kebutuhan proyek mereka di repositori publik NPM.
-
-Instalasi Paket: NPM memungkinkan untuk menginstal paket-paket JavaScript dalam proyek dengan mudah menggunakan perintah npm install. NPM akan mengunduh dan menginstal paket beserta dependensinya ke dalam direktori proyek secara otomatis.
-
-Manajemen Versi: NPM memungkinkan untuk mengelola versi paket dengan mudah. Pengembang dapat menginstal versi spesifik dari paket, memperbarui paket ke versi terbaru, atau mengunci versi paket untuk memastikan konsistensi dalam proyek.
-
-Scripting: NPM memungkinkan untuk menambahkan skrip-sript kustom ke dalam berkas package.json yang mempermudah dalam menjalankan tugas-tugas tertentu, seperti kompilasi kode, menjalankan uji coba, atau memulai server pengembangan.
-
-Paket Lokal dan Global: NPM memungkinkan untuk menginstal paket-paket secara lokal dalam proyek atau secara global di seluruh sistem. Pengembang dapat memilih untuk menggunakan paket dalam ruang lingkup proyek atau membuatnya tersedia secara global di seluruh sistem.
-
-Kemudahan Kolaborasi: NPM memfasilitasi kolaborasi dan berbagi kode antar pengembang. Pengembang dapat dengan mudah berbagi proyek dan dependensinya dengan orang lain menggunakan file package.json dan repositori publik NPM.
+-   Manajer Paket: NPM adalah manajer paket yang kuat yang digunakan untuk mengelola dependensi dan paket-paket JavaScript dalam proyek-proyek Node.js. Ini memungkinkan pengembang untuk mengatur dan menyimpan kode JavaScript dari berbagai sumber dengan mudah.
+-   Repository Publik: NPM memiliki repositori publik yang luas yang berisi ribuan paket-paket JavaScript yang tersedia untuk digunakan. Pengembang dapat mencari dan menemukan paket yang sesuai dengan kebutuhan proyek mereka di repositori publik NPM.
+-   Instalasi Paket: NPM memungkinkan untuk menginstal paket-paket JavaScript dalam proyek dengan mudah menggunakan perintah npm install. NPM akan mengunduh dan menginstal paket beserta dependensinya ke dalam direktori proyek secara otomatis.
+-   Manajemen Versi: NPM memungkinkan untuk mengelola versi paket dengan mudah. Pengembang dapat menginstal versi spesifik dari paket, memperbarui paket ke versi terbaru, atau mengunci versi paket untuk memastikan konsistensi dalam proyek.
+-   Scripting: NPM memungkinkan untuk menambahkan skrip-sript kustom ke dalam berkas package.json yang mempermudah dalam menjalankan tugas-tugas tertentu, seperti kompilasi kode, menjalankan uji coba, atau memulai server pengembangan.
+-   Paket Lokal dan Global: NPM memungkinkan untuk menginstal paket-paket secara lokal dalam proyek atau secara global di seluruh sistem. Pengembang dapat memilih untuk menggunakan paket dalam ruang lingkup proyek atau membuatnya tersedia secara global di seluruh sistem.
+-   Kemudahan Kolaborasi: NPM memfasilitasi kolaborasi dan berbagi kode antar pengembang. Pengembang dapat dengan mudah berbagi proyek dan dependensinya dengan orang lain menggunakan file package.json dan repositori publik NPM.
 
 Secara keseluruhan, NPM adalah alat yang sangat penting dalam ekosistem Node.js yang memungkinkan untuk mencari, menginstal, dan mengelola paket-paket JavaScript dengan mudah dalam proyek-proyek Node.js.
 

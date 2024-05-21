@@ -30,15 +30,11 @@ Nodemon adalah alat pengembangan (development tool) yang berguna untuk memonitor
 
 Berikut adalah beberapa poin penting tentang Nodemon:
 
-Memantau Perubahan Berkas: Nodemon secara terus-menerus memantau berkas dalam proyek Node.js, seperti berkas JavaScript atau JSON. Ini dilakukan dengan memeriksa waktu modifikasi (timestamp) pada berkas-berkas tersebut.
-
-Pemulihan Otomatis: Ketika Nodemon mendeteksi perubahan pada berkas, seperti penyimpanan baru atau penyuntingan, ia akan secara otomatis memulai ulang server Node.js atau aplikasi yang sedang berjalan. Ini memungkinkan untuk melihat perubahan secara langsung tanpa perlu memulai ulang server secara manual setiap kali ada perubahan pada kode.
-
-Mempercepat Proses Pengembangan: Nodemon membantu meningkatkan produktivitas pengembangan dengan mempercepat siklus pengembangan. Pengembang tidak perlu lagi menghentikan dan memulai ulang server secara manual setiap kali ada perubahan pada kode, yang dapat menghemat waktu dan mengurangi gangguan.
-
-Konfigurasi Mudah: Nodemon dapat dikonfigurasi dengan mudah menggunakan berkas konfigurasi atau opsi baris perintah. Ini memungkinkan untuk menyesuaikan perilaku Nodemon sesuai dengan kebutuhan proyek, seperti menambahkan pengecualian untuk berkas tertentu atau menyesuaikan interval pemantauan.
-
-Dukungan untuk Berbagai Jenis Proyek: Nodemon dapat digunakan dengan berbagai jenis proyek Node.js, termasuk proyek aplikasi web, server API, atau aplikasi terpisah lainnya. Ini membuatnya menjadi alat yang serbaguna untuk pengembangan Node.js.
+-   Memantau Perubahan Berkas: Nodemon secara terus-menerus memantau berkas dalam proyek Node.js, seperti berkas JavaScript atau JSON. Ini dilakukan dengan memeriksa waktu modifikasi (timestamp) pada berkas-berkas tersebut.
+-   Pemulihan Otomatis: Ketika Nodemon mendeteksi perubahan pada berkas, seperti penyimpanan baru atau penyuntingan, ia akan secara otomatis memulai ulang server Node.js atau aplikasi yang sedang berjalan. Ini memungkinkan untuk melihat perubahan secara langsung tanpa perlu memulai ulang server secara manual setiap kali ada perubahan pada kode.
+-   Mempercepat Proses Pengembangan: Nodemon membantu meningkatkan produktivitas pengembangan dengan mempercepat siklus pengembangan. Pengembang tidak perlu lagi menghentikan dan memulai ulang server secara manual setiap kali ada perubahan pada kode, yang dapat menghemat waktu dan mengurangi gangguan.
+-   Konfigurasi Mudah: Nodemon dapat dikonfigurasi dengan mudah menggunakan berkas konfigurasi atau opsi baris perintah. Ini memungkinkan untuk menyesuaikan perilaku Nodemon sesuai dengan kebutuhan proyek, seperti menambahkan pengecualian untuk berkas tertentu atau menyesuaikan interval pemantauan.
+-   Dukungan untuk Berbagai Jenis Proyek: Nodemon dapat digunakan dengan berbagai jenis proyek Node.js, termasuk proyek aplikasi web, server API, atau aplikasi terpisah lainnya. Ini membuatnya menjadi alat yang serbaguna untuk pengembangan Node.js.
 
 Secara keseluruhan, Nodemon adalah alat yang berguna dan populer dalam ekosistem pengembangan Node.js karena kemampuannya untuk memantau perubahan kode secara otomatis dan memulai ulang server dengan cepat.
 
@@ -61,7 +57,7 @@ Berikut ini adalah prasyarat dari tutorial ini:
 
 ## Langkah-Langkah
 
-Pertama, buatlah project Node.js bernama "contoh_nodejs_nodemon" dengan cara yang telah dijelaskan di tutorial terdahulu ini.
+Pertama, buatlah project Node.js bernama "contoh_nodejs_nodemon" dengan cara yang telah dijelaskan di "[Belajar Node JS Cara Membuat Project](https://github.com/rakifsul/belajar_coding_node_js/blob/main/Belajar-Node-JS-Cara-Membuat-Project.md)".
 
 Selanjutnya, ubah file "package.json" menjadi seperti ini:
 

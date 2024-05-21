@@ -62,7 +62,7 @@ Berikut ini adalah prasyarat dari tutorial ini:
 
 ## Langkah-Langkah
 
-Pertama, buatlah project Node.js bernama "contoh_nodejs_puppeteer" dengan cara yang telah dijelaskan di tutorial terdahulu ini.
+Pertama, buatlah project Node.js bernama "contoh_nodejs_puppeteer" dengan cara yang telah dijelaskan di "[Belajar Node JS Cara Membuat Project](https://github.com/rakifsul/belajar_coding_node_js/blob/main/Belajar-Node-JS-Cara-Membuat-Project.md)".
 
 Selanjutnya, ubah file "package.json" menjadi seperti ini:
 

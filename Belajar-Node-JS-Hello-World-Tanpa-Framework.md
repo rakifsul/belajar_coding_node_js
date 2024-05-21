@@ -20,15 +20,11 @@ Pada aplikasi ini, kita akan belajar cara meng-import modul, membuat server http
 
 Membuat program "Hello, World!" tanpa menggunakan framework di Node.js memiliki beberapa manfaat:
 
-Pemahaman Dasar Node.js: Membuat program sederhana tanpa menggunakan framework memungkinkan untuk memahami dasar-dasar Node.js dengan lebih baik. Ini termasuk memahami bagaimana membuat, menjalankan, dan mengelola proses Node.js secara langsung tanpa adanya lapisan abstraksi yang ditambahkan oleh framework.
-
-Kontrol Penuh: Tanpa menggunakan framework, pengembang memiliki kontrol penuh atas kode yang ditulis. Ini memungkinkan untuk menyesuaikan kode sesuai dengan kebutuhan proyek secara spesifik, tanpa terikat oleh keputusan desain atau struktur yang diberlakukan oleh framework tertentu.
-
-Keterampilan Pemrograman Umum: Membuat program sederhana tanpa menggunakan framework memungkinkan untuk fokus pada keterampilan pemrograman umum, seperti manipulasi string, manipulasi array, logika pengaturan aliran, dan lain-lain. Ini merupakan fondasi yang kuat untuk memahami dan mengembangkan keterampilan pemrograman Node.js secara lebih luas.
-
-Pengenalan Proses Asinkron: Node.js terkenal karena model pemrograman asinkronnya yang kuat. Dengan membuat program "Hello, World!" tanpa framework, pengembang dapat memahami dasar-dasar pemrograman asinkron di Node.js, termasuk penggunaan callback, promise, atau async/await secara langsung.
-
-Ringan dan Efisien: Tanpa menggunakan framework, program "Hello, World!" cenderung lebih ringan dan efisien karena tidak ada lapisan abstraksi tambahan yang perlu dimuat atau dieksekusi. Ini membuat program lebih cepat untuk dijalankan dan membutuhkan sumber daya yang lebih sedikit.
+-   Pemahaman Dasar Node.js: Membuat program sederhana tanpa menggunakan framework memungkinkan untuk memahami dasar-dasar Node.js dengan lebih baik. Ini termasuk memahami bagaimana membuat, menjalankan, dan mengelola proses Node.js secara langsung tanpa adanya lapisan abstraksi yang ditambahkan oleh framework.
+-   Kontrol Penuh: Tanpa menggunakan framework, pengembang memiliki kontrol penuh atas kode yang ditulis. Ini memungkinkan untuk menyesuaikan kode sesuai dengan kebutuhan proyek secara spesifik, tanpa terikat oleh keputusan desain atau struktur yang diberlakukan oleh framework tertentu.
+-   Keterampilan Pemrograman Umum: Membuat program sederhana tanpa menggunakan framework memungkinkan untuk fokus pada keterampilan pemrograman umum, seperti manipulasi string, manipulasi array, logika pengaturan aliran, dan lain-lain. Ini merupakan fondasi yang kuat untuk memahami dan mengembangkan keterampilan pemrograman Node.js secara lebih luas.
+-   Pengenalan Proses Asinkron: Node.js terkenal karena model pemrograman asinkronnya yang kuat. Dengan membuat program "Hello, World!" tanpa framework, pengembang dapat memahami dasar-dasar pemrograman asinkron di Node.js, termasuk penggunaan callback, promise, atau async/await secara langsung.
+-   Ringan dan Efisien: Tanpa menggunakan framework, program "Hello, World!" cenderung lebih ringan dan efisien karena tidak ada lapisan abstraksi tambahan yang perlu dimuat atau dieksekusi. Ini membuat program lebih cepat untuk dijalankan dan membutuhkan sumber daya yang lebih sedikit.
 
 Meskipun membuat program "Hello, World!" tanpa framework mungkin terlihat sederhana, namun itu memberikan kesempatan yang berharga untuk memahami dasar-dasar Node.js secara lebih mendalam dan membangun dasar yang kuat untuk pengembangan aplikasi yang lebih kompleks di masa depan.
 
@@ -49,7 +45,7 @@ Berikut ini adalah prasyarat dari tutorial ini:
 
 ## Langkah-Langkah
 
-Pertama, buatlah project Node.js bernama "contoh_nodejs_hello_world_tanpa_framework" dengan cara yang telah dijelaskan di tutorial terdahulu ini.
+Pertama, buatlah project Node.js bernama "contoh_nodejs_hello_world_tanpa_framework" dengan cara yang telah dijelaskan di "[Belajar Node JS Cara Membuat Project](https://github.com/rakifsul/belajar_coding_node_js/blob/main/Belajar-Node-JS-Cara-Membuat-Project.md)".
 
 Selanjutnya, ubah file "package.json" menjadi seperti ini:
 
