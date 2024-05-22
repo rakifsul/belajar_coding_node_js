@@ -8,31 +8,7 @@ Pada umumnya, Node JS digunakan untuk membuat aplikasi web atau command line.
 
 Namun, saya pribadi lebih suka menggunakannya untuk aplikasi web.
 
-Saya melakukan itu disebabkan Node JS memiliki fitur yang lebih dari sekedar create, read, update, dan delete.
-
-Cobalah Anda mampir ke website-website kerja freelance.
-
-Jika ada request untuk project Node JS, umumnya mereka meminta dibuatkan aplikasi web yang cukup unik, seperti scraper misalnya.
-
-Itu adalah hal yang jarang terjadi pada project dari platform lainnya, kecuali Python, mungkin.
-
-Kenapa Node JS bisa seperti itu?
-
-Sebenarnya, Node JS itu bukan hanya sebuah library, bahkan bahasa yang digunakan itu sendiri adalah JavaScript. Sesuatu yang sudah ada dari dulu.
-
-Node JS bisa seperti itu karena ia datang bersama server-nya.
-
-Berbeda dengan PHP misalnya.
-
-PHP masih perlu web server terpisah agar bisa digunakan.
-
-Meskipun PHP yang baru telah menyediakan web server-nya secara default, tapi itu bukan untuk lingkungan production.
-
-Di PHP, Anda mungkin perlu hosting yang disertai cron job untuk melakukan penjadwalan eksekusi script.
-
-Di Node JS, Anda hanya perlu fungsi setTimeout atau setInterval, dan beres.
-
-Dari semua alasan itu, maka bisa saya simpulkan bahwa Node JS layak untuk dipelajari.
+Sebenarnya, banyak alasan untuk menggunakan Node JS daripada yang lain. Anda bisa cari di search engine atau tanya AI.
 
 Berikut ini adalah daftar artikelnya:
 
