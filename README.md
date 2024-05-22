@@ -1,6 +1,6 @@
 # Belajar Coding Node JS
 
-Ini adalah kumpulan contoh coding Node JS.
+Ini adalah kumpulan artikel coding Node JS.
 
 Node JS adalah sebuah runtime yang memiliki banyak fungsi.
 
