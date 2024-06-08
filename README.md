@@ -1,5 +1,7 @@
 # Belajar Coding Node JS
 
+## Pendahuluan
+
 Ini adalah kumpulan artikel coding Node JS.
 
 Node JS adalah sebuah runtime yang memiliki banyak fungsi.
@@ -9,6 +11,8 @@ Pada umumnya, Node JS digunakan untuk membuat aplikasi web atau command line.
 Namun, saya pribadi lebih suka menggunakannya untuk aplikasi web.
 
 Sebenarnya, banyak alasan untuk menggunakan Node JS daripada yang lain. Anda bisa cari di search engine atau tanya AI.
+
+## Isi artikel
 
 Berikut ini adalah daftar artikelnya:
 
@@ -25,12 +29,16 @@ Berikut ini adalah daftar artikelnya:
 -   [Belajar Node JS Mengenal Axios](https://github.com/rakifsul/belajar_coding_node_js/blob/main/Belajar-Node-JS-Mengenal-Axios.md)
 -   [Belajar Node JS Mengenal Puppeteer](https://github.com/rakifsul/belajar_coding_node_js/blob/main/Belajar-Node-JS-Mengenal-Puppeteer.md)
 
-Artikel ini gratis.
+## Link Penting
 
-Jika Anda ingin mentraktir saya, kunjungi link saya:
+Kunjungi juga link saya.
 
-https://taplink.cc/rakifsul
+Link untuk traktir atau beli produk saya:
 
-Di sana ada link untuk mentraktir saya dan link lainnya.
+- https://karyakarsa.com/rakifsul
+
+Link selengkapnya:
+
+- https://taplink.cc/rakifsul
 
 Selamat menikmati.
