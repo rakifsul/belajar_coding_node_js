@@ -29,16 +29,6 @@ Berikut ini adalah daftar artikelnya:
 -   [Belajar Node JS Mengenal Axios](https://github.com/rakifsul/belajar_coding_node_js/blob/main/Belajar-Node-JS-Mengenal-Axios.md)
 -   [Belajar Node JS Mengenal Puppeteer](https://github.com/rakifsul/belajar_coding_node_js/blob/main/Belajar-Node-JS-Mengenal-Puppeteer.md)
 
-## Link Penting
-
-Kunjungi juga link saya.
-
-Link untuk traktir atau beli produk saya:
+## Link untuk Traktir
 
 - https://karyakarsa.com/rakifsul
-
-Link selengkapnya:
-
-- https://taplink.cc/rakifsul
-
-Selamat menikmati.
